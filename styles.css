@@ -32,15 +32,15 @@ h2 {
 /* ========== Navigation ========== */
 .navigation {
     display: flex;
-    justify-content: center;
-    list-style: none;
+    justify-content: center; 
+    list-style: none;         
     padding: 0;
     margin: 15px 0;
-    flex-wrap: wrap;
+    gap: 20px;               
 }
 
 .navigation li {
-    margin: 0 12px;
+    /* no margin needed if you use gap above */
 }
 
 .navigation a {
@@ -54,6 +54,7 @@ h2 {
 .navigation a:hover {
     color: #007acc;
 }
+
 
 /* ========== Content Card ========== */
 .content {
