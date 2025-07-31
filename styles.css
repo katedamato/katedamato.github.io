@@ -31,7 +31,6 @@ h2 {
 
 /* ========== Navigation ========== */
 .navigation {
-    padding-left: 0 !important;
     display: flex;
     justify-content: center; 
     list-style: none;         
@@ -39,6 +38,7 @@ h2 {
     margin: 0;
     gap: 20px;
     width:100%;
+    text-align: center;
 }
 
 .navigation li {
